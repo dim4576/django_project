@@ -25,7 +25,7 @@ SECRET_KEY = 'z$1ou+(%51xaufxj&^d1md6k9w1q)5j(guklb&wyy43r5k%ksj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'docChaizer.pythonanywhere.com']
 
 
 # Application definition
