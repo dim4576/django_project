@@ -10,5 +10,12 @@
         <div>
             <h2><a href="/admin">Administration</a></h2>
         </div>
+        {% for post in posts %}
+          <div>
+              <h1><a href="">{{ post.title }}</a></h1>
+              <p>{{ post.text|linebreaksbr }}</p>
+              <p>published: {{ post.published_date }}</p>
+          </div>
+        {% endfor %}
     </body>
 </html>
